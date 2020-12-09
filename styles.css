@@ -1,0 +1,480 @@
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+
+          /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #797D7F;    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+   border-right: 2px white solid;
+   border-left: 2px white solid;
+
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+.navbar{
+  padding: 0;
+  background-color: white !important;
+  border-bottom: solid #F4F6F7 ;
+}
+
+#header img{
+  max-height: 56px;
+  display: inline-block;
+}
+.navbar-toggler{
+  border:hidden !important;
+  font-size: 3rem;
+
+
+}
+.navbar-toggler-icon{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+border: hidden;
+width: 30px;
+
+}
+
+
+
+.nav-link{
+padding: 26px 18px !important;
+margin: 0 !important;
+border-bottom: 5px solid transparent !important;
+font-size: 14px !important;
+font-weight: bold !important;
+color: #333 !important;
+}
+
+
+.all-content{
+  padding-top: 100px;
+    margin: 0 13%;
+}
+
+.section-heading{
+color: #e60000;
+font-weight: bolder;
+font-size: 1.6rem;
+margin: 0;
+padding-bottom: 10px;
+display: inline-block;
+}
+h2{
+  color: #e60000;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.item-title h1{
+  font-size: 1rem;
+  color: #e60000;
+  font-weight: bold;
+}
+.item-content p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+}
+.item-content  li{
+  color: #666666;
+  font-size: 0.8rem;
+}
+.item-content li span{
+  font-weight: 600;
+}
+
+.still-thinking{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.still-thinking h1{
+  font-size: 25px ;
+    font-weight: bold;
+    color: #000 ;
+    margin-top: 20px ;
+    display: inline-block ;
+}
+.still-thinking a{
+  color: #e60000;
+  font-weight: bolder;
+}
+/* special styles for main webpage */
+.join{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 78px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('img/innovation-hackathon.jfif');
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+
+.join-date{
+
+  text-align: center;
+  width: 350px;
+  height: 200px;
+
+
+}
+.join-date p{
+  color: white;
+  font-size: 20px;
+    width: 54%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.join-date a{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+}
+.join-date .btn-lg{
+  width: 150px;
+  height: 60px;
+  color: #e60000;
+  background-color: white;
+  border: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+.join-date .btn-lg:hover{
+  color: white;
+  background-color: #e60000;
+
+}
+#prizes{
+  background-color: #F7F8FA;
+  padding-bottom: 30px;
+}
+#prizes h1{
+  color: #e60000;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.prizes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.prize{
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  width: auto;
+  height: 167px;
+  padding: 3% 3%;
+  border: solid #D7DBDD;
+  border-width: medium;
+ border-radius: 5px;
+ transition: 0.3s ease;
+
+}
+.prize:hover{
+  background-image: linear-gradient(to right, #A93226 , #B10A58);
+}
+.prize img{
+  float: left;
+width: 100px;
+height: 100px;
+margin-right: 10px;
+}
+
+#prizes p{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 500;
+}
+.prize-value p{
+  margin-top: 1px !important;
+  margin-bottom: 0;
+}
+.video{
+  height: 520px;
+  text-align: center;
+}
+.video iframe{
+  width: 70%;
+  height: 360px;
+  margin-top: 90px;
+
+}
+.five-g{
+  padding: 30px 20px;
+}
+.five-g-text{
+  padding: 20px 90px;
+  padding-right: 30px;
+}
+
+
+
+.five-g-text h1{
+  color: #e60000;
+  margin-bottom:40px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.five-g-text p{
+  font-weight: 500;
+
+}
+.five-g-img{
+  padding: 20px 20px;
+}
+
+.five-g-img img{
+  width: 90%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.timeline{
+  padding-top: 200px;
+}
+.timeline-item{
+  position: relative;
+}
+.timeline h1{
+  color: #e60000;
+  margin-bottom:40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.timeline-item{
+  margin-top: 100px;
+}
+.timeline-text{
+  width: 40%;
+
+
+
+}
+.timeline-text.right{
+  margin-left: 60%;
+}
+.timeline-text h1{
+  text-align: left;
+  color: #e60000;
+  font-size: 30px;
+  font-weight: 500;
+}
+.timeline-icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e60000;
+  display: block;
+  left: 48%;
+  position: absolute;
+
+
+
+
+
+}
+.timeline-icon i{
+  font-size: 25px;
+  color: white;
+
+
+}
+.vertical-line{
+
+  background-color: #e60000;
+  width: 3px;
+  height: 120%;
+position: absolute;
+top: 57px;
+left: 50.5%;
+
+
+}
+#important-dates h1{
+  color: #e60000;
+  margin-top: 120px;
+  margin-bottom:60px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card{
+  width: 37%;
+  margin: auto;
+  border: hidden;
+  margin-bottom: 20px;
+}
+.card-header{
+  background-color: #F8F9F9;
+  border-color: #ddd;
+  height: 50px;
+  padding-left: 0;
+}
+.fa{
+  font-size: larger;
+}
+.collapse-title{
+  font-weight: bold;
+  margin: auto 0;
+}
+.card-body{
+  border-bottom: solid;
+  border-color: #ddd;
+  border-width: 0.5px;
+  border-radius: 5px;
+}
+#carousel h1{
+  color: #e60000;
+  margin-top: 80px;
+  margin-bottom:10px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+.carousel-control-prev,.carousel-control-next{
+  opacity: 1;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  width: 40px;
+  height: 40px;
+  background-color: #515A5A;
+  opacity: 1;
+}
+.carousel-indicators li{
+  height: 10px;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 1px;
+  border-left: 1px;
+  border-radius: 5px;
+  opacity: 1;
+  transition: background-color 0.6s ease;
+}
+.carousel-indicators .active{
+  background-color: #4a4d4e;
+}
+.footer{
+  margin-top: 50px;
+  width: 100%;
+  height: 370px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('img/footer-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.call-to-action{
+  text-align: center;
+}
+.call-to-action .btn-lg{
+  width: 130px;
+  height: 45px;
+  color: #e60000;
+  background-color: white;
+  border: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+  transition: 0.3s ease;
+}
+.call-to-action .btn-lg:hover{
+  color: white;
+  background-color: #e60000;
+
+}
+.call-to-action h1{
+  font-size: 35px;
+  line-height: 3.125rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* end of special styles for main webpage */
+@media only screen and (max-width:768px){
+  .container{
+    max-width: none;
+    margin: 0 !important;
+  }
+.navbar{
+  position: relative;
+  padding: 0 10px;
+
+}
+.section-heading{
+  margin-top: 200px;
+  margin-bottom: 350px;
+}
+.all-content{
+  margin-left: 15px;
+}
+.still-thinking{
+  margin-top: 0;
+}
+.join{
+  height: 300px;
+}
+.prize{
+  width: 100%;
+  margin-top: 10px;
+}
+.five-g-text h1{
+  text-align: center;
+  margin-top: 80px;
+}
+.five-g-text p{
+  text-align: center;
+}
+.five-g-img{
+display: none;
+}
+.timeline-icon{
+  left: 40px;
+}
+.vertical-line{
+  left: 70px;
+}
+.timeline-text{
+  margin-left: 140px;
+  width: 70%;
+}
+.timeline-text.right{
+  margin-left: 140px;
+}
+.card{
+  width: 95%;
+}
+.call-to-action h1{
+  font-size: 20px;
+}
+}
